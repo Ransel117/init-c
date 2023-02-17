@@ -1,6 +1,6 @@
 BasedOnStyle: LLVM
 
-Standard: c++11 #s
+Standard: c++11
 SortIncludes: false
 
 IndentWidth: 4
