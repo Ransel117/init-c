@@ -1,5 +1,6 @@
 BasedOnStyle: LLVM
 
+Language: Cpp
 Standard: c++11 #s
 SortIncludes: false
 
@@ -12,29 +13,29 @@ InsertBraces: true
 BreakBeforeBraces: Attach
 
 AlignConsecutiveAssignments:
-  Enabled:         true
+  Enabled: true
   AcrossEmptyLines: false
-  AcrossComments:  false
-  AlignCompound:   true
-  PadOperators:    true
+  AcrossComments: false
+  AlignCompound: true
+  PadOperators: true
 AlignConsecutiveBitFields:
-  Enabled:         true
+  Enabled: true
   AcrossEmptyLines: false
-  AcrossComments:  false
-  AlignCompound:   true
-  PadOperators:    true
+  AcrossComments: false
+  AlignCompound: true
+  PadOperators: true
 AlignConsecutiveDeclarations:
-  Enabled:         true
+  Enabled: true
   AcrossEmptyLines: false
-  AcrossComments:  false
-  AlignCompound:   true
-  PadOperators:    true
+  AcrossComments: false
+  AlignCompound: true
+  PadOperators: true
 AlignConsecutiveMacros:
-  Enabled:         true
+  Enabled: true
   AcrossEmptyLines: false
-  AcrossComments:  false
-  AlignCompound:   true
-  PadOperators:    true
+  AcrossComments: false
+  AlignCompound: true
+  PadOperators: true
 
 AllowShortFunctionsOnASingleLine: Inline
 AllowShortLambdasOnASingleLine: Inline
@@ -48,4 +49,3 @@ QualifierAlignment: Custom
 QualifierOrder: ["static", "inline", "const", "type"]
 
 SpacesInContainerLiterals: false
-
