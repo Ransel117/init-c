@@ -1,0 +1,31 @@
+BasedOnStyle: LLVM
+
+Standard: c++11 #s
+SortIncludes: false
+
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 104
+
+Cpp11BracedListStyle: true
+InsertBraces: true
+BreakBeforeBraces: Attach
+
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortLambdasOnASingleLine: Inline
+AllowShortBlocksOnASingleLine: Always
+AllowShortLoopsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: WithoutElse
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+QualifierAlignment: Custom
+QualifierOrder: ["static", "inline", "const", "type"]
+
+SpacesInContainerLiterals: false
+
