@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 MUSL_ROOT=$(find /usr -iname 'musl' -type d -not -path '*/\.*')
 MUSL_INC="$MUSL_ROOT/include"
