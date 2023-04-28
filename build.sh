@@ -6,7 +6,7 @@ MUSL_LIB="$MUSL_ROOT/lib"
 MUSL_BIN="$MUSL_ROOT/bin"
 
 CC="$MUSL_BIN/musl-gcc"
-CFLAGS="-Wall -Wpedantic -ggdb -std=c99"
+CFLAGS="-Wall -Wpedantic -ggdb -std=c11"
 CDEFINES=""
 CINCLUDES=""
 CFILES="main.c"
